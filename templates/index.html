@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KL University — Student Academic Analysis</title>
+    <style>
+        :root {
+            --kl-red: #c62828;
+            --kl-red-light: #ef5350;
+            --kl-dark: #222;
+            --kl-gray: #e0e0e0;
+            --green: #1b5e20;
+            --yellow: #f57f17;
+            --bg: #f5f5f5;
+            --card-bg: #fff;
+            --radius: 8px;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: var(--bg);
+            color: var(--kl-dark);
+            line-height: 1.5;
+        }
+        .container { max-width: 1140px; margin: 0 auto; padding: 16px 20px; }
+
+        /* HEADER */
+        .app-header {
+            text-align: center;
+            background: linear-gradient(135deg, var(--kl-red), #b71c1c);
+            color: #fff;
+            padding: 22px 20px;
+            border-radius: var(--radius);
+            margin-bottom: 16px;
+            box-shadow: 0 3px 14px rgba(198, 40, 40, 0.25);
+        }
+        .header-logo {
+            width: 56px; height: auto;
+            border-radius: 50%; background: white; padding: 3px;
+            margin-bottom: 6px;
+        }
+        .app-header h1 { font-size: 24px; font-weight: 700; letter-spacing: 0.5px; }
+        .app-header .subtitle { font-size: 13px; opacity: 0.85; margin-top: 2px; }
+
+        /* UPLOAD */
+        .upload-section {
+            background: var(--card-bg); border-radius: var(--radius);
+            padding: 20px 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            margin-bottom: 16px;
+        }
+        .upload-section h2 { font-size: 17px; color: var(--kl-red); margin-bottom: 4px; }
+        .info-text { color: #777; font-size: 13px; margin-bottom: 14px; }
+        .file-inputs { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 14px; }
+        @media (max-width: 768px) { .file-inputs { grid-template-columns: 1fr; } }
+        .file-group { display: flex; flex-direction: column; }
+        .file-group label { font-weight: 600; font-size: 13px; margin-bottom: 4px; color: var(--kl-red); }
+        .file-group input[type="file"] {
+            padding: 8px; border: 2px dashed var(--kl-gray);
+            border-radius: 6px; background: #fafafa; cursor: pointer;
+            font-size: 12px; transition: border-color 0.2s;
+        }
+        .file-group input[type="file"]:hover { border-color: var(--kl-red-light); }
+        .file-hint { font-size: 10px; color: #aaa; margin-top: 2px; }
+        .optional-tag { font-size: 10px; color: #999; font-weight: 400; }
+
+        .btn-primary {
+            display: block; width: 100%; padding: 12px;
+            background: linear-gradient(135deg, var(--kl-red), #b71c1c);
+            color: #fff; border: none; border-radius: 6px;
+            font-size: 15px; font-weight: 600; cursor: pointer;
+            transition: transform 0.15s, box-shadow 0.15s;
+        }
+        .btn-primary:hover { transform: translateY(-1px); box-shadow: 0 3px 12px rgba(198,40,40,0.3); }
+        .btn-primary:disabled { opacity: 0.6; cursor: not-allowed; transform: none; }
+
+        /* LOADING */
+        .loading { text-align: center; padding: 20px; }
+        .spinner {
+            width: 34px; height: 34px; border: 3px solid var(--kl-gray);
+            border-top-color: var(--kl-red); border-radius: 50%;
+            animation: spin 0.8s linear infinite; margin: 0 auto 8px;
+        }
+        @keyframes spin { to { transform: rotate(360deg); } }
+        .hidden { display: none !important; }
+
+        .error-box {
+            background: #fef0f0; color: var(--kl-red);
+            border: 1px solid #f5c6cb; border-radius: 6px;
+            padding: 10px 14px; margin-top: 12px; font-weight: 500; font-size: 13px;
+        }
+
+        /* RESULTS */
+        .results-section {
+            background: var(--card-bg); border-radius: var(--radius);
+            padding: 20px 24px; box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+        }
+        .results-section h2 { font-size: 17px; color: var(--kl-red); margin-bottom: 12px; }
+
+        .summary-cards {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+            gap: 10px; margin-bottom: 16px;
+        }
+        .card {
+            background: #fafafa; border-radius: 8px; padding: 14px 10px;
+            text-align: center; border-left: 4px solid var(--kl-red);
+        }
+        .card-red { border-left-color: var(--kl-red); background: #fff5f5; }
+        .card-yellow { border-left-color: var(--yellow); background: #fffbf0; }
+        .card-green { border-left-color: var(--green); background: #f0fff4; }
+        .card-number { font-size: 28px; font-weight: 700; color: var(--kl-red); }
+        .card-red .card-number { color: var(--kl-red); }
+        .card-yellow .card-number { color: var(--yellow); }
+        .card-green .card-number { color: var(--green); }
+        .card-label { font-size: 11px; color: #777; margin-top: 2px; font-weight: 500; }
+
+        .student-list-header {
+            display: flex; justify-content: space-between; align-items: center;
+            margin-bottom: 10px; flex-wrap: wrap; gap: 8px;
+        }
+        .student-list-header h3 { color: var(--kl-red); font-size: 15px; }
+        .header-actions { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+        .search-bar input {
+            padding: 7px 12px; border: 1px solid var(--kl-gray);
+            border-radius: 6px; font-size: 13px; width: 240px;
+            transition: border-color 0.2s;
+        }
+        .search-bar input:focus { outline: none; border-color: var(--kl-red-light); }
+
+        .btn-zip {
+            padding: 7px 14px; border-radius: 6px; font-size: 12px;
+            font-weight: 600; cursor: pointer; border: none;
+            background: linear-gradient(135deg, #388e3c, #1b5e20);
+            color: #fff; transition: transform 0.1s;
+        }
+        .btn-zip:hover { transform: scale(1.03); }
+
+        .student-table-wrapper { overflow-x: auto; }
+        .student-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+        .student-table th {
+            background: var(--kl-red); color: #fff;
+            padding: 8px 10px; text-align: left; font-weight: 600;
+            font-size: 12px; white-space: nowrap;
+        }
+        .student-table td { padding: 7px 10px; border-bottom: 1px solid var(--kl-gray); }
+        .student-table tbody tr:hover { background: #fff5f5; }
+
+        .stat-red { color: var(--kl-red); font-weight: 600; }
+        .stat-yellow { color: var(--yellow); font-weight: 600; }
+        .stat-green { color: var(--green); font-weight: 600; }
+
+        .badge {
+            display: inline-block; padding: 2px 8px; border-radius: 10px;
+            font-size: 10px; font-weight: 600; white-space: nowrap;
+        }
+        .badge-red { background: #fdecea; color: var(--kl-red); }
+        .badge-green { background: #e8f5e9; color: var(--green); }
+
+        .download-btns { white-space: nowrap; }
+        .btn-sm {
+            display: inline-block; padding: 3px 10px; border-radius: 5px;
+            font-size: 11px; font-weight: 600; text-decoration: none;
+            margin-right: 3px; transition: transform 0.1s;
+        }
+        .btn-sm:hover { transform: scale(1.05); }
+        .btn-pdf { background: var(--kl-red); color: #fff; }
+        .btn-docx { background: #1565c0; color: #fff; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="app-header">
+            <img src="/static/images/kl_logo.png" alt="KL Logo" class="header-logo" onerror="this.style.display='none'">
+            <h1>KL University</h1>
+            <p class="subtitle">Student Academic Performance Analysis System</p>
+        </header>
+
+        <section class="upload-section">
+            <h2>Upload Academic Files</h2>
+            <p class="info-text">
+                Upload <strong>Results</strong>, <strong>Attendance</strong>, or <strong>both</strong> files (CSV / Excel).
+                Either file alone generates a partial report; both together produce a full report.
+            </p>
+            <form id="uploadForm" enctype="multipart/form-data">
+                <div class="file-inputs">
+                    <div class="file-group">
+                        <label for="resultsFile">Previous Semester Results <span class="optional-tag">(optional)</span></label>
+                        <input type="file" id="resultsFile" name="results_file" accept=".csv,.xlsx,.xls">
+                        <span class="file-hint">Student_ID, Student_Name, Subject_Code, Subject_Name, Grade, Credits</span>
+                    </div>
+                    <div class="file-group">
+                        <label for="attendanceFile">Current Semester Attendance <span class="optional-tag">(optional)</span></label>
+                        <input type="file" id="attendanceFile" name="attendance_file" accept=".csv,.xlsx,.xls">
+                        <span class="file-hint">Student_ID, Student_Name, Subject_Code, Subject_Name, Classes_Held, Classes_Attended</span>
+                    </div>
+                </div>
+                <button type="submit" class="btn-primary" id="analyzeBtn">
+                    Analyze &amp; Generate Reports
+                </button>
+            </form>
+            <div id="loading" class="loading hidden">
+                <div class="spinner"></div>
+                <p style="font-size:13px; color:#666;">Processing files...</p>
+            </div>
+            <div id="errorMsg" class="error-box hidden"></div>
+        </section>
+
+        <section id="resultsSection" class="results-section hidden">
+            <h2>Analysis Results</h2>
+            <div class="summary-cards" id="summaryCards"></div>
+
+            <div class="student-list-header">
+                <h3>Student Reports</h3>
+                <div class="header-actions">
+                    <div class="search-bar">
+                        <input type="text" id="searchInput" placeholder="Search by ID or Name..." oninput="filterStudents()">
+                    </div>
+                    <button class="btn-zip" id="downloadAllBtn" onclick="downloadAllZip()">
+                        Download All PDFs (ZIP)
+                    </button>
+                </div>
+            </div>
+
+            <div class="student-table-wrapper">
+                <table class="student-table" id="studentTable">
+                    <thead>
+                        <tr>
+                            <th>Student ID</th>
+                            <th>Name</th>
+                            <th>Section</th>
+                            <th>Attendance</th>
+                            <th>Backlogs</th>
+                            <th>Status</th>
+                            <th>Download</th>
+                        </tr>
+                    </thead>
+                    <tbody id="studentTableBody"></tbody>
+                </table>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        let studentsData = [];
+
+        document.getElementById('uploadForm').addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const resultsFile = document.getElementById('resultsFile').files[0];
+            const attendanceFile = document.getElementById('attendanceFile').files[0];
+
+            if (!resultsFile && !attendanceFile) {
+                const errorMsg = document.getElementById('errorMsg');
+                errorMsg.textContent = 'Please select at least one file (Results or Attendance).';
+                errorMsg.classList.remove('hidden');
+                return;
+            }
+
+            const formData = new FormData();
+            if (resultsFile) formData.append('results_file', resultsFile);
+            if (attendanceFile) formData.append('attendance_file', attendanceFile);
+
+            const loading = document.getElementById('loading');
+            const errorMsg = document.getElementById('errorMsg');
+            const resultsSection = document.getElementById('resultsSection');
+            const btn = document.getElementById('analyzeBtn');
+
+            loading.classList.remove('hidden');
+            errorMsg.classList.add('hidden');
+            resultsSection.classList.add('hidden');
+            btn.disabled = true;
+
+            try {
+                const response = await fetch('/api/analyze', { method: 'POST', body: formData });
+                const data = await response.json();
+                if (!response.ok) throw new Error(data.detail || 'Analysis failed');
+
+                studentsData = data.students;
+                renderSummary(data.summary);
+                renderStudentTable(studentsData);
+                resultsSection.classList.remove('hidden');
+            } catch (err) {
+                errorMsg.textContent = 'Error: ' + err.message;
+                errorMsg.classList.remove('hidden');
+            } finally {
+                loading.classList.add('hidden');
+                btn.disabled = false;
+            }
+        });
+
+        function renderSummary(s) {
+            document.getElementById('summaryCards').innerHTML = `
+                <div class="card"><div class="card-number">${s.total_students}</div><div class="card-label">Total Students</div></div>
+                <div class="card card-red"><div class="card-number">${s.low_attendance_count}</div><div class="card-label">Low Attendance (&lt;75%)</div></div>
+                <div class="card card-yellow"><div class="card-number">${s.warning_attendance_count}</div><div class="card-label">Warning (75-80%)</div></div>
+                <div class="card card-green"><div class="card-number">${s.good_attendance_count}</div><div class="card-label">Good Attendance (&ge;80%)</div></div>
+                <div class="card card-red"><div class="card-number">${s.students_with_backlogs}</div><div class="card-label">Students with Backlogs</div></div>
+            `;
+        }
+
+        function renderStudentTable(students) {
+            const tbody = document.getElementById('studentTableBody');
+            tbody.innerHTML = '';
+            students.forEach(s => {
+                const att = s.overall_attendance;
+                const attText = att > 0 ? att.toFixed(1) + '%' : '-';
+                const attClass = att < 75 ? 'stat-red' : att < 80 ? 'stat-yellow' : 'stat-green';
+                const badge = s.needs_counseling
+                    ? '<span class="badge badge-red">Needs Attention</span>'
+                    : '<span class="badge badge-green">Good Standing</span>';
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td><strong>${s.student_id}</strong></td>
+                    <td>${s.student_name}</td>
+                    <td>${s.section || '-'}</td>
+                    <td class="${attClass}">${attText}</td>
+                    <td>${s.backlog_count > 0 ? '<span class="stat-red">'+s.backlog_count+'</span>' : '0'}</td>
+                    <td>${badge}</td>
+                    <td class="download-btns">
+                        <a href="/api/report/${s.student_id}/pdf" class="btn-sm btn-pdf" download>PDF</a>
+                        <a href="/api/report/${s.student_id}/docx" class="btn-sm btn-docx" download>DOCX</a>
+                    </td>`;
+                tbody.appendChild(row);
+            });
+        }
+
+        function filterStudents() {
+            const q = document.getElementById('searchInput').value.toLowerCase();
+            renderStudentTable(studentsData.filter(s =>
+                s.student_id.toLowerCase().includes(q) || s.student_name.toLowerCase().includes(q)
+            ));
+        }
+
+        async function downloadAllZip() {
+            const btn = document.getElementById('downloadAllBtn');
+            btn.textContent = 'Generating ZIP...';
+            btn.disabled = true;
+            try {
+                const resp = await fetch('/api/download-all-reports', { method: 'POST' });
+                if (!resp.ok) {
+                    const err = await resp.json();
+                    throw new Error(err.detail || 'ZIP generation failed');
+                }
+                const blob = await resp.blob();
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = 'all_student_reports.zip';
+                a.click();
+                URL.revokeObjectURL(url);
+            } catch (err) {
+                alert('Error: ' + err.message);
+            } finally {
+                btn.textContent = 'Download All PDFs (ZIP)';
+                btn.disabled = false;
+            }
+        }
+    </script>
+</body>
+</html>

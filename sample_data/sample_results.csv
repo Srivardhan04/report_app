@@ -1,0 +1,251 @@
+Student_ID,Student_Name,Section,Year,Semester,Branch,Email,Counselor_Name,Counselor_ID,Subject_Code,Subject_Name,Grade,Credits
+2300001,Student_001,A,2,3,Computer Science and Engineering,student001@kluniversity.in,Dr. Priya Sharma,FAC001,CS201,Data Structures,A,4
+2300001,Student_001,A,2,3,Computer Science and Engineering,student001@kluniversity.in,Dr. Priya Sharma,FAC001,CS202,Digital Logic Design,A+,3
+2300001,Student_001,A,2,3,Computer Science and Engineering,student001@kluniversity.in,Dr. Priya Sharma,FAC001,MA201,Probability and Statistics,B,3
+2300001,Student_001,A,2,3,Computer Science and Engineering,student001@kluniversity.in,Dr. Priya Sharma,FAC001,CS203,Object Oriented Programming,B,4
+2300001,Student_001,A,2,3,Computer Science and Engineering,student001@kluniversity.in,Dr. Priya Sharma,FAC001,HS201,Professional Communication,A+,2
+2300002,Student_002,B,2,3,Computer Science and Engineering,student002@kluniversity.in,Dr. Priya Sharma,FAC003,CS201,Data Structures,O,4
+2300002,Student_002,B,2,3,Computer Science and Engineering,student002@kluniversity.in,Dr. Priya Sharma,FAC003,CS202,Digital Logic Design,A,3
+2300002,Student_002,B,2,3,Computer Science and Engineering,student002@kluniversity.in,Dr. Priya Sharma,FAC003,MA201,Probability and Statistics,B+,3
+2300002,Student_002,B,2,3,Computer Science and Engineering,student002@kluniversity.in,Dr. Priya Sharma,FAC003,CS203,Object Oriented Programming,A+,4
+2300002,Student_002,B,2,3,Computer Science and Engineering,student002@kluniversity.in,Dr. Priya Sharma,FAC003,HS201,Professional Communication,C,2
+2300003,Student_003,A,2,3,Computer Science and Engineering,student003@kluniversity.in,Dr. Ramesh Kumar,FAC002,CS201,Data Structures,B,4
+2300003,Student_003,A,2,3,Computer Science and Engineering,student003@kluniversity.in,Dr. Ramesh Kumar,FAC002,CS202,Digital Logic Design,B+,3
+2300003,Student_003,A,2,3,Computer Science and Engineering,student003@kluniversity.in,Dr. Ramesh Kumar,FAC002,MA201,Probability and Statistics,A+,3
+2300003,Student_003,A,2,3,Computer Science and Engineering,student003@kluniversity.in,Dr. Ramesh Kumar,FAC002,CS203,Object Oriented Programming,B+,4
+2300003,Student_003,A,2,3,Computer Science and Engineering,student003@kluniversity.in,Dr. Ramesh Kumar,FAC002,HS201,Professional Communication,O,2
+2300004,Student_004,C,2,3,Computer Science and Engineering,student004@kluniversity.in,Dr. Priya Sharma,FAC002,CS201,Data Structures,B,4
+2300004,Student_004,C,2,3,Computer Science and Engineering,student004@kluniversity.in,Dr. Priya Sharma,FAC002,CS202,Digital Logic Design,A,3
+2300004,Student_004,C,2,3,Computer Science and Engineering,student004@kluniversity.in,Dr. Priya Sharma,FAC002,MA201,Probability and Statistics,B+,3
+2300004,Student_004,C,2,3,Computer Science and Engineering,student004@kluniversity.in,Dr. Priya Sharma,FAC002,CS203,Object Oriented Programming,A,4
+2300004,Student_004,C,2,3,Computer Science and Engineering,student004@kluniversity.in,Dr. Priya Sharma,FAC002,HS201,Professional Communication,B+,2
+2300005,Student_005,C,2,3,Computer Science and Engineering,student005@kluniversity.in,Dr. Anil Reddy,FAC003,CS201,Data Structures,A,4
+2300005,Student_005,C,2,3,Computer Science and Engineering,student005@kluniversity.in,Dr. Anil Reddy,FAC003,CS202,Digital Logic Design,B+,3
+2300005,Student_005,C,2,3,Computer Science and Engineering,student005@kluniversity.in,Dr. Anil Reddy,FAC003,MA201,Probability and Statistics,B+,3
+2300005,Student_005,C,2,3,Computer Science and Engineering,student005@kluniversity.in,Dr. Anil Reddy,FAC003,CS203,Object Oriented Programming,C,4
+2300005,Student_005,C,2,3,Computer Science and Engineering,student005@kluniversity.in,Dr. Anil Reddy,FAC003,HS201,Professional Communication,A+,2
+2300006,Student_006,C,2,3,Computer Science and Engineering,student006@kluniversity.in,Dr. Ramesh Kumar,FAC001,CS201,Data Structures,B+,4
+2300006,Student_006,C,2,3,Computer Science and Engineering,student006@kluniversity.in,Dr. Ramesh Kumar,FAC001,CS202,Digital Logic Design,P,3
+2300006,Student_006,C,2,3,Computer Science and Engineering,student006@kluniversity.in,Dr. Ramesh Kumar,FAC001,MA201,Probability and Statistics,P,3
+2300006,Student_006,C,2,3,Computer Science and Engineering,student006@kluniversity.in,Dr. Ramesh Kumar,FAC001,CS203,Object Oriented Programming,A,4
+2300006,Student_006,C,2,3,Computer Science and Engineering,student006@kluniversity.in,Dr. Ramesh Kumar,FAC001,HS201,Professional Communication,A,2
+2300007,Student_007,A,2,3,Computer Science and Engineering,student007@kluniversity.in,Dr. Priya Sharma,FAC002,CS201,Data Structures,B,4
+2300007,Student_007,A,2,3,Computer Science and Engineering,student007@kluniversity.in,Dr. Priya Sharma,FAC002,CS202,Digital Logic Design,B+,3
+2300007,Student_007,A,2,3,Computer Science and Engineering,student007@kluniversity.in,Dr. Priya Sharma,FAC002,MA201,Probability and Statistics,O,3
+2300007,Student_007,A,2,3,Computer Science and Engineering,student007@kluniversity.in,Dr. Priya Sharma,FAC002,CS203,Object Oriented Programming,P,4
+2300007,Student_007,A,2,3,Computer Science and Engineering,student007@kluniversity.in,Dr. Priya Sharma,FAC002,HS201,Professional Communication,A+,2
+2300008,Student_008,B,2,3,Computer Science and Engineering,student008@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS201,Data Structures,A+,4
+2300008,Student_008,B,2,3,Computer Science and Engineering,student008@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS202,Digital Logic Design,P,3
+2300008,Student_008,B,2,3,Computer Science and Engineering,student008@kluniversity.in,Dr. Ramesh Kumar,FAC003,MA201,Probability and Statistics,A,3
+2300008,Student_008,B,2,3,Computer Science and Engineering,student008@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS203,Object Oriented Programming,A+,4
+2300008,Student_008,B,2,3,Computer Science and Engineering,student008@kluniversity.in,Dr. Ramesh Kumar,FAC003,HS201,Professional Communication,A,2
+2300009,Student_009,C,2,3,Computer Science and Engineering,student009@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS201,Data Structures,B+,4
+2300009,Student_009,C,2,3,Computer Science and Engineering,student009@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS202,Digital Logic Design,F,3
+2300009,Student_009,C,2,3,Computer Science and Engineering,student009@kluniversity.in,Dr. Ramesh Kumar,FAC003,MA201,Probability and Statistics,C,3
+2300009,Student_009,C,2,3,Computer Science and Engineering,student009@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS203,Object Oriented Programming,A+,4
+2300009,Student_009,C,2,3,Computer Science and Engineering,student009@kluniversity.in,Dr. Ramesh Kumar,FAC003,HS201,Professional Communication,P,2
+2300010,Student_010,C,2,3,Computer Science and Engineering,student010@kluniversity.in,Dr. Priya Sharma,FAC001,CS201,Data Structures,B+,4
+2300010,Student_010,C,2,3,Computer Science and Engineering,student010@kluniversity.in,Dr. Priya Sharma,FAC001,CS202,Digital Logic Design,F,3
+2300010,Student_010,C,2,3,Computer Science and Engineering,student010@kluniversity.in,Dr. Priya Sharma,FAC001,MA201,Probability and Statistics,B,3
+2300010,Student_010,C,2,3,Computer Science and Engineering,student010@kluniversity.in,Dr. Priya Sharma,FAC001,CS203,Object Oriented Programming,P,4
+2300010,Student_010,C,2,3,Computer Science and Engineering,student010@kluniversity.in,Dr. Priya Sharma,FAC001,HS201,Professional Communication,B+,2
+2300011,Student_011,A,2,3,Computer Science and Engineering,student011@kluniversity.in,Dr. Anil Reddy,FAC001,CS201,Data Structures,C,4
+2300011,Student_011,A,2,3,Computer Science and Engineering,student011@kluniversity.in,Dr. Anil Reddy,FAC001,CS202,Digital Logic Design,F,3
+2300011,Student_011,A,2,3,Computer Science and Engineering,student011@kluniversity.in,Dr. Anil Reddy,FAC001,MA201,Probability and Statistics,A,3
+2300011,Student_011,A,2,3,Computer Science and Engineering,student011@kluniversity.in,Dr. Anil Reddy,FAC001,CS203,Object Oriented Programming,A+,4
+2300011,Student_011,A,2,3,Computer Science and Engineering,student011@kluniversity.in,Dr. Anil Reddy,FAC001,HS201,Professional Communication,O,2
+2300012,Student_012,A,2,3,Computer Science and Engineering,student012@kluniversity.in,Dr. Anil Reddy,FAC003,CS201,Data Structures,F,4
+2300012,Student_012,A,2,3,Computer Science and Engineering,student012@kluniversity.in,Dr. Anil Reddy,FAC003,CS202,Digital Logic Design,P,3
+2300012,Student_012,A,2,3,Computer Science and Engineering,student012@kluniversity.in,Dr. Anil Reddy,FAC003,MA201,Probability and Statistics,B,3
+2300012,Student_012,A,2,3,Computer Science and Engineering,student012@kluniversity.in,Dr. Anil Reddy,FAC003,CS203,Object Oriented Programming,A,4
+2300012,Student_012,A,2,3,Computer Science and Engineering,student012@kluniversity.in,Dr. Anil Reddy,FAC003,HS201,Professional Communication,A,2
+2300013,Student_013,A,2,3,Computer Science and Engineering,student013@kluniversity.in,Dr. Ramesh Kumar,FAC001,CS201,Data Structures,B+,4
+2300013,Student_013,A,2,3,Computer Science and Engineering,student013@kluniversity.in,Dr. Ramesh Kumar,FAC001,CS202,Digital Logic Design,C,3
+2300013,Student_013,A,2,3,Computer Science and Engineering,student013@kluniversity.in,Dr. Ramesh Kumar,FAC001,MA201,Probability and Statistics,A,3
+2300013,Student_013,A,2,3,Computer Science and Engineering,student013@kluniversity.in,Dr. Ramesh Kumar,FAC001,CS203,Object Oriented Programming,B+,4
+2300013,Student_013,A,2,3,Computer Science and Engineering,student013@kluniversity.in,Dr. Ramesh Kumar,FAC001,HS201,Professional Communication,B,2
+2300014,Student_014,B,2,3,Computer Science and Engineering,student014@kluniversity.in,Dr. Anil Reddy,FAC003,CS201,Data Structures,A,4
+2300014,Student_014,B,2,3,Computer Science and Engineering,student014@kluniversity.in,Dr. Anil Reddy,FAC003,CS202,Digital Logic Design,F,3
+2300014,Student_014,B,2,3,Computer Science and Engineering,student014@kluniversity.in,Dr. Anil Reddy,FAC003,MA201,Probability and Statistics,B+,3
+2300014,Student_014,B,2,3,Computer Science and Engineering,student014@kluniversity.in,Dr. Anil Reddy,FAC003,CS203,Object Oriented Programming,B+,4
+2300014,Student_014,B,2,3,Computer Science and Engineering,student014@kluniversity.in,Dr. Anil Reddy,FAC003,HS201,Professional Communication,O,2
+2300015,Student_015,A,2,3,Computer Science and Engineering,student015@kluniversity.in,Dr. Priya Sharma,FAC002,CS201,Data Structures,B+,4
+2300015,Student_015,A,2,3,Computer Science and Engineering,student015@kluniversity.in,Dr. Priya Sharma,FAC002,CS202,Digital Logic Design,B+,3
+2300015,Student_015,A,2,3,Computer Science and Engineering,student015@kluniversity.in,Dr. Priya Sharma,FAC002,MA201,Probability and Statistics,B,3
+2300015,Student_015,A,2,3,Computer Science and Engineering,student015@kluniversity.in,Dr. Priya Sharma,FAC002,CS203,Object Oriented Programming,A+,4
+2300015,Student_015,A,2,3,Computer Science and Engineering,student015@kluniversity.in,Dr. Priya Sharma,FAC002,HS201,Professional Communication,A,2
+2300016,Student_016,C,2,3,Computer Science and Engineering,student016@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS201,Data Structures,A,4
+2300016,Student_016,C,2,3,Computer Science and Engineering,student016@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS202,Digital Logic Design,A,3
+2300016,Student_016,C,2,3,Computer Science and Engineering,student016@kluniversity.in,Dr. Ramesh Kumar,FAC003,MA201,Probability and Statistics,C,3
+2300016,Student_016,C,2,3,Computer Science and Engineering,student016@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS203,Object Oriented Programming,A+,4
+2300016,Student_016,C,2,3,Computer Science and Engineering,student016@kluniversity.in,Dr. Ramesh Kumar,FAC003,HS201,Professional Communication,A,2
+2300017,Student_017,B,2,3,Computer Science and Engineering,student017@kluniversity.in,Dr. Anil Reddy,FAC003,CS201,Data Structures,P,4
+2300017,Student_017,B,2,3,Computer Science and Engineering,student017@kluniversity.in,Dr. Anil Reddy,FAC003,CS202,Digital Logic Design,B,3
+2300017,Student_017,B,2,3,Computer Science and Engineering,student017@kluniversity.in,Dr. Anil Reddy,FAC003,MA201,Probability and Statistics,B+,3
+2300017,Student_017,B,2,3,Computer Science and Engineering,student017@kluniversity.in,Dr. Anil Reddy,FAC003,CS203,Object Oriented Programming,F,4
+2300017,Student_017,B,2,3,Computer Science and Engineering,student017@kluniversity.in,Dr. Anil Reddy,FAC003,HS201,Professional Communication,F,2
+2300018,Student_018,B,2,3,Computer Science and Engineering,student018@kluniversity.in,Dr. Priya Sharma,FAC002,CS201,Data Structures,C,4
+2300018,Student_018,B,2,3,Computer Science and Engineering,student018@kluniversity.in,Dr. Priya Sharma,FAC002,CS202,Digital Logic Design,A+,3
+2300018,Student_018,B,2,3,Computer Science and Engineering,student018@kluniversity.in,Dr. Priya Sharma,FAC002,MA201,Probability and Statistics,A,3
+2300018,Student_018,B,2,3,Computer Science and Engineering,student018@kluniversity.in,Dr. Priya Sharma,FAC002,CS203,Object Oriented Programming,B+,4
+2300018,Student_018,B,2,3,Computer Science and Engineering,student018@kluniversity.in,Dr. Priya Sharma,FAC002,HS201,Professional Communication,C,2
+2300019,Student_019,C,2,3,Computer Science and Engineering,student019@kluniversity.in,Dr. Anil Reddy,FAC001,CS201,Data Structures,A,4
+2300019,Student_019,C,2,3,Computer Science and Engineering,student019@kluniversity.in,Dr. Anil Reddy,FAC001,CS202,Digital Logic Design,P,3
+2300019,Student_019,C,2,3,Computer Science and Engineering,student019@kluniversity.in,Dr. Anil Reddy,FAC001,MA201,Probability and Statistics,F,3
+2300019,Student_019,C,2,3,Computer Science and Engineering,student019@kluniversity.in,Dr. Anil Reddy,FAC001,CS203,Object Oriented Programming,O,4
+2300019,Student_019,C,2,3,Computer Science and Engineering,student019@kluniversity.in,Dr. Anil Reddy,FAC001,HS201,Professional Communication,B,2
+2300020,Student_020,B,2,3,Computer Science and Engineering,student020@kluniversity.in,Dr. Ramesh Kumar,FAC001,CS201,Data Structures,A,4
+2300020,Student_020,B,2,3,Computer Science and Engineering,student020@kluniversity.in,Dr. Ramesh Kumar,FAC001,CS202,Digital Logic Design,B+,3
+2300020,Student_020,B,2,3,Computer Science and Engineering,student020@kluniversity.in,Dr. Ramesh Kumar,FAC001,MA201,Probability and Statistics,B+,3
+2300020,Student_020,B,2,3,Computer Science and Engineering,student020@kluniversity.in,Dr. Ramesh Kumar,FAC001,CS203,Object Oriented Programming,P,4
+2300020,Student_020,B,2,3,Computer Science and Engineering,student020@kluniversity.in,Dr. Ramesh Kumar,FAC001,HS201,Professional Communication,A+,2
+2300021,Student_021,A,2,3,Computer Science and Engineering,student021@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS201,Data Structures,B+,4
+2300021,Student_021,A,2,3,Computer Science and Engineering,student021@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS202,Digital Logic Design,B+,3
+2300021,Student_021,A,2,3,Computer Science and Engineering,student021@kluniversity.in,Dr. Ramesh Kumar,FAC003,MA201,Probability and Statistics,C,3
+2300021,Student_021,A,2,3,Computer Science and Engineering,student021@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS203,Object Oriented Programming,B+,4
+2300021,Student_021,A,2,3,Computer Science and Engineering,student021@kluniversity.in,Dr. Ramesh Kumar,FAC003,HS201,Professional Communication,B+,2
+2300022,Student_022,A,2,3,Computer Science and Engineering,student022@kluniversity.in,Dr. Anil Reddy,FAC003,CS201,Data Structures,B,4
+2300022,Student_022,A,2,3,Computer Science and Engineering,student022@kluniversity.in,Dr. Anil Reddy,FAC003,CS202,Digital Logic Design,A,3
+2300022,Student_022,A,2,3,Computer Science and Engineering,student022@kluniversity.in,Dr. Anil Reddy,FAC003,MA201,Probability and Statistics,C,3
+2300022,Student_022,A,2,3,Computer Science and Engineering,student022@kluniversity.in,Dr. Anil Reddy,FAC003,CS203,Object Oriented Programming,F,4
+2300022,Student_022,A,2,3,Computer Science and Engineering,student022@kluniversity.in,Dr. Anil Reddy,FAC003,HS201,Professional Communication,C,2
+2300023,Student_023,C,2,3,Computer Science and Engineering,student023@kluniversity.in,Dr. Anil Reddy,FAC003,CS201,Data Structures,A,4
+2300023,Student_023,C,2,3,Computer Science and Engineering,student023@kluniversity.in,Dr. Anil Reddy,FAC003,CS202,Digital Logic Design,B+,3
+2300023,Student_023,C,2,3,Computer Science and Engineering,student023@kluniversity.in,Dr. Anil Reddy,FAC003,MA201,Probability and Statistics,B,3
+2300023,Student_023,C,2,3,Computer Science and Engineering,student023@kluniversity.in,Dr. Anil Reddy,FAC003,CS203,Object Oriented Programming,A,4
+2300023,Student_023,C,2,3,Computer Science and Engineering,student023@kluniversity.in,Dr. Anil Reddy,FAC003,HS201,Professional Communication,F,2
+2300024,Student_024,A,2,3,Computer Science and Engineering,student024@kluniversity.in,Dr. Priya Sharma,FAC003,CS201,Data Structures,O,4
+2300024,Student_024,A,2,3,Computer Science and Engineering,student024@kluniversity.in,Dr. Priya Sharma,FAC003,CS202,Digital Logic Design,B+,3
+2300024,Student_024,A,2,3,Computer Science and Engineering,student024@kluniversity.in,Dr. Priya Sharma,FAC003,MA201,Probability and Statistics,B,3
+2300024,Student_024,A,2,3,Computer Science and Engineering,student024@kluniversity.in,Dr. Priya Sharma,FAC003,CS203,Object Oriented Programming,B+,4
+2300024,Student_024,A,2,3,Computer Science and Engineering,student024@kluniversity.in,Dr. Priya Sharma,FAC003,HS201,Professional Communication,B+,2
+2300025,Student_025,A,2,3,Computer Science and Engineering,student025@kluniversity.in,Dr. Anil Reddy,FAC003,CS201,Data Structures,A,4
+2300025,Student_025,A,2,3,Computer Science and Engineering,student025@kluniversity.in,Dr. Anil Reddy,FAC003,CS202,Digital Logic Design,A+,3
+2300025,Student_025,A,2,3,Computer Science and Engineering,student025@kluniversity.in,Dr. Anil Reddy,FAC003,MA201,Probability and Statistics,A,3
+2300025,Student_025,A,2,3,Computer Science and Engineering,student025@kluniversity.in,Dr. Anil Reddy,FAC003,CS203,Object Oriented Programming,A,4
+2300025,Student_025,A,2,3,Computer Science and Engineering,student025@kluniversity.in,Dr. Anil Reddy,FAC003,HS201,Professional Communication,F,2
+2300026,Student_026,C,2,3,Computer Science and Engineering,student026@kluniversity.in,Dr. Anil Reddy,FAC003,CS201,Data Structures,F,4
+2300026,Student_026,C,2,3,Computer Science and Engineering,student026@kluniversity.in,Dr. Anil Reddy,FAC003,CS202,Digital Logic Design,O,3
+2300026,Student_026,C,2,3,Computer Science and Engineering,student026@kluniversity.in,Dr. Anil Reddy,FAC003,MA201,Probability and Statistics,A+,3
+2300026,Student_026,C,2,3,Computer Science and Engineering,student026@kluniversity.in,Dr. Anil Reddy,FAC003,CS203,Object Oriented Programming,B+,4
+2300026,Student_026,C,2,3,Computer Science and Engineering,student026@kluniversity.in,Dr. Anil Reddy,FAC003,HS201,Professional Communication,F,2
+2300027,Student_027,A,2,3,Computer Science and Engineering,student027@kluniversity.in,Dr. Anil Reddy,FAC001,CS201,Data Structures,P,4
+2300027,Student_027,A,2,3,Computer Science and Engineering,student027@kluniversity.in,Dr. Anil Reddy,FAC001,CS202,Digital Logic Design,P,3
+2300027,Student_027,A,2,3,Computer Science and Engineering,student027@kluniversity.in,Dr. Anil Reddy,FAC001,MA201,Probability and Statistics,C,3
+2300027,Student_027,A,2,3,Computer Science and Engineering,student027@kluniversity.in,Dr. Anil Reddy,FAC001,CS203,Object Oriented Programming,B,4
+2300027,Student_027,A,2,3,Computer Science and Engineering,student027@kluniversity.in,Dr. Anil Reddy,FAC001,HS201,Professional Communication,C,2
+2300028,Student_028,B,2,3,Computer Science and Engineering,student028@kluniversity.in,Dr. Ramesh Kumar,FAC002,CS201,Data Structures,B+,4
+2300028,Student_028,B,2,3,Computer Science and Engineering,student028@kluniversity.in,Dr. Ramesh Kumar,FAC002,CS202,Digital Logic Design,F,3
+2300028,Student_028,B,2,3,Computer Science and Engineering,student028@kluniversity.in,Dr. Ramesh Kumar,FAC002,MA201,Probability and Statistics,B+,3
+2300028,Student_028,B,2,3,Computer Science and Engineering,student028@kluniversity.in,Dr. Ramesh Kumar,FAC002,CS203,Object Oriented Programming,C,4
+2300028,Student_028,B,2,3,Computer Science and Engineering,student028@kluniversity.in,Dr. Ramesh Kumar,FAC002,HS201,Professional Communication,B+,2
+2300029,Student_029,C,2,3,Computer Science and Engineering,student029@kluniversity.in,Dr. Anil Reddy,FAC002,CS201,Data Structures,O,4
+2300029,Student_029,C,2,3,Computer Science and Engineering,student029@kluniversity.in,Dr. Anil Reddy,FAC002,CS202,Digital Logic Design,C,3
+2300029,Student_029,C,2,3,Computer Science and Engineering,student029@kluniversity.in,Dr. Anil Reddy,FAC002,MA201,Probability and Statistics,F,3
+2300029,Student_029,C,2,3,Computer Science and Engineering,student029@kluniversity.in,Dr. Anil Reddy,FAC002,CS203,Object Oriented Programming,B,4
+2300029,Student_029,C,2,3,Computer Science and Engineering,student029@kluniversity.in,Dr. Anil Reddy,FAC002,HS201,Professional Communication,A+,2
+2300030,Student_030,B,2,3,Computer Science and Engineering,student030@kluniversity.in,Dr. Priya Sharma,FAC002,CS201,Data Structures,B,4
+2300030,Student_030,B,2,3,Computer Science and Engineering,student030@kluniversity.in,Dr. Priya Sharma,FAC002,CS202,Digital Logic Design,B,3
+2300030,Student_030,B,2,3,Computer Science and Engineering,student030@kluniversity.in,Dr. Priya Sharma,FAC002,MA201,Probability and Statistics,A,3
+2300030,Student_030,B,2,3,Computer Science and Engineering,student030@kluniversity.in,Dr. Priya Sharma,FAC002,CS203,Object Oriented Programming,B+,4
+2300030,Student_030,B,2,3,Computer Science and Engineering,student030@kluniversity.in,Dr. Priya Sharma,FAC002,HS201,Professional Communication,B+,2
+2300031,Student_031,C,2,3,Computer Science and Engineering,student031@kluniversity.in,Dr. Ramesh Kumar,FAC001,CS201,Data Structures,C,4
+2300031,Student_031,C,2,3,Computer Science and Engineering,student031@kluniversity.in,Dr. Ramesh Kumar,FAC001,CS202,Digital Logic Design,C,3
+2300031,Student_031,C,2,3,Computer Science and Engineering,student031@kluniversity.in,Dr. Ramesh Kumar,FAC001,MA201,Probability and Statistics,F,3
+2300031,Student_031,C,2,3,Computer Science and Engineering,student031@kluniversity.in,Dr. Ramesh Kumar,FAC001,CS203,Object Oriented Programming,B+,4
+2300031,Student_031,C,2,3,Computer Science and Engineering,student031@kluniversity.in,Dr. Ramesh Kumar,FAC001,HS201,Professional Communication,C,2
+2300032,Student_032,A,2,3,Computer Science and Engineering,student032@kluniversity.in,Dr. Priya Sharma,FAC003,CS201,Data Structures,A,4
+2300032,Student_032,A,2,3,Computer Science and Engineering,student032@kluniversity.in,Dr. Priya Sharma,FAC003,CS202,Digital Logic Design,B+,3
+2300032,Student_032,A,2,3,Computer Science and Engineering,student032@kluniversity.in,Dr. Priya Sharma,FAC003,MA201,Probability and Statistics,B+,3
+2300032,Student_032,A,2,3,Computer Science and Engineering,student032@kluniversity.in,Dr. Priya Sharma,FAC003,CS203,Object Oriented Programming,B+,4
+2300032,Student_032,A,2,3,Computer Science and Engineering,student032@kluniversity.in,Dr. Priya Sharma,FAC003,HS201,Professional Communication,A,2
+2300033,Student_033,A,2,3,Computer Science and Engineering,student033@kluniversity.in,Dr. Priya Sharma,FAC002,CS201,Data Structures,F,4
+2300033,Student_033,A,2,3,Computer Science and Engineering,student033@kluniversity.in,Dr. Priya Sharma,FAC002,CS202,Digital Logic Design,B,3
+2300033,Student_033,A,2,3,Computer Science and Engineering,student033@kluniversity.in,Dr. Priya Sharma,FAC002,MA201,Probability and Statistics,F,3
+2300033,Student_033,A,2,3,Computer Science and Engineering,student033@kluniversity.in,Dr. Priya Sharma,FAC002,CS203,Object Oriented Programming,B+,4
+2300033,Student_033,A,2,3,Computer Science and Engineering,student033@kluniversity.in,Dr. Priya Sharma,FAC002,HS201,Professional Communication,P,2
+2300034,Student_034,B,2,3,Computer Science and Engineering,student034@kluniversity.in,Dr. Anil Reddy,FAC002,CS201,Data Structures,C,4
+2300034,Student_034,B,2,3,Computer Science and Engineering,student034@kluniversity.in,Dr. Anil Reddy,FAC002,CS202,Digital Logic Design,A,3
+2300034,Student_034,B,2,3,Computer Science and Engineering,student034@kluniversity.in,Dr. Anil Reddy,FAC002,MA201,Probability and Statistics,B+,3
+2300034,Student_034,B,2,3,Computer Science and Engineering,student034@kluniversity.in,Dr. Anil Reddy,FAC002,CS203,Object Oriented Programming,A+,4
+2300034,Student_034,B,2,3,Computer Science and Engineering,student034@kluniversity.in,Dr. Anil Reddy,FAC002,HS201,Professional Communication,A,2
+2300035,Student_035,C,2,3,Computer Science and Engineering,student035@kluniversity.in,Dr. Anil Reddy,FAC001,CS201,Data Structures,A,4
+2300035,Student_035,C,2,3,Computer Science and Engineering,student035@kluniversity.in,Dr. Anil Reddy,FAC001,CS202,Digital Logic Design,F,3
+2300035,Student_035,C,2,3,Computer Science and Engineering,student035@kluniversity.in,Dr. Anil Reddy,FAC001,MA201,Probability and Statistics,F,3
+2300035,Student_035,C,2,3,Computer Science and Engineering,student035@kluniversity.in,Dr. Anil Reddy,FAC001,CS203,Object Oriented Programming,A,4
+2300035,Student_035,C,2,3,Computer Science and Engineering,student035@kluniversity.in,Dr. Anil Reddy,FAC001,HS201,Professional Communication,B,2
+2300036,Student_036,C,2,3,Computer Science and Engineering,student036@kluniversity.in,Dr. Anil Reddy,FAC003,CS201,Data Structures,B+,4
+2300036,Student_036,C,2,3,Computer Science and Engineering,student036@kluniversity.in,Dr. Anil Reddy,FAC003,CS202,Digital Logic Design,A,3
+2300036,Student_036,C,2,3,Computer Science and Engineering,student036@kluniversity.in,Dr. Anil Reddy,FAC003,MA201,Probability and Statistics,O,3
+2300036,Student_036,C,2,3,Computer Science and Engineering,student036@kluniversity.in,Dr. Anil Reddy,FAC003,CS203,Object Oriented Programming,A+,4
+2300036,Student_036,C,2,3,Computer Science and Engineering,student036@kluniversity.in,Dr. Anil Reddy,FAC003,HS201,Professional Communication,B+,2
+2300037,Student_037,C,2,3,Computer Science and Engineering,student037@kluniversity.in,Dr. Anil Reddy,FAC001,CS201,Data Structures,A,4
+2300037,Student_037,C,2,3,Computer Science and Engineering,student037@kluniversity.in,Dr. Anil Reddy,FAC001,CS202,Digital Logic Design,A,3
+2300037,Student_037,C,2,3,Computer Science and Engineering,student037@kluniversity.in,Dr. Anil Reddy,FAC001,MA201,Probability and Statistics,B,3
+2300037,Student_037,C,2,3,Computer Science and Engineering,student037@kluniversity.in,Dr. Anil Reddy,FAC001,CS203,Object Oriented Programming,A,4
+2300037,Student_037,C,2,3,Computer Science and Engineering,student037@kluniversity.in,Dr. Anil Reddy,FAC001,HS201,Professional Communication,A,2
+2300038,Student_038,C,2,3,Computer Science and Engineering,student038@kluniversity.in,Dr. Priya Sharma,FAC001,CS201,Data Structures,C,4
+2300038,Student_038,C,2,3,Computer Science and Engineering,student038@kluniversity.in,Dr. Priya Sharma,FAC001,CS202,Digital Logic Design,B+,3
+2300038,Student_038,C,2,3,Computer Science and Engineering,student038@kluniversity.in,Dr. Priya Sharma,FAC001,MA201,Probability and Statistics,C,3
+2300038,Student_038,C,2,3,Computer Science and Engineering,student038@kluniversity.in,Dr. Priya Sharma,FAC001,CS203,Object Oriented Programming,B+,4
+2300038,Student_038,C,2,3,Computer Science and Engineering,student038@kluniversity.in,Dr. Priya Sharma,FAC001,HS201,Professional Communication,F,2
+2300039,Student_039,B,2,3,Computer Science and Engineering,student039@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS201,Data Structures,O,4
+2300039,Student_039,B,2,3,Computer Science and Engineering,student039@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS202,Digital Logic Design,F,3
+2300039,Student_039,B,2,3,Computer Science and Engineering,student039@kluniversity.in,Dr. Ramesh Kumar,FAC003,MA201,Probability and Statistics,B+,3
+2300039,Student_039,B,2,3,Computer Science and Engineering,student039@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS203,Object Oriented Programming,C,4
+2300039,Student_039,B,2,3,Computer Science and Engineering,student039@kluniversity.in,Dr. Ramesh Kumar,FAC003,HS201,Professional Communication,A,2
+2300040,Student_040,C,2,3,Computer Science and Engineering,student040@kluniversity.in,Dr. Priya Sharma,FAC001,CS201,Data Structures,B,4
+2300040,Student_040,C,2,3,Computer Science and Engineering,student040@kluniversity.in,Dr. Priya Sharma,FAC001,CS202,Digital Logic Design,P,3
+2300040,Student_040,C,2,3,Computer Science and Engineering,student040@kluniversity.in,Dr. Priya Sharma,FAC001,MA201,Probability and Statistics,A,3
+2300040,Student_040,C,2,3,Computer Science and Engineering,student040@kluniversity.in,Dr. Priya Sharma,FAC001,CS203,Object Oriented Programming,B,4
+2300040,Student_040,C,2,3,Computer Science and Engineering,student040@kluniversity.in,Dr. Priya Sharma,FAC001,HS201,Professional Communication,F,2
+2300041,Student_041,C,2,3,Computer Science and Engineering,student041@kluniversity.in,Dr. Anil Reddy,FAC001,CS201,Data Structures,B+,4
+2300041,Student_041,C,2,3,Computer Science and Engineering,student041@kluniversity.in,Dr. Anil Reddy,FAC001,CS202,Digital Logic Design,A,3
+2300041,Student_041,C,2,3,Computer Science and Engineering,student041@kluniversity.in,Dr. Anil Reddy,FAC001,MA201,Probability and Statistics,B,3
+2300041,Student_041,C,2,3,Computer Science and Engineering,student041@kluniversity.in,Dr. Anil Reddy,FAC001,CS203,Object Oriented Programming,A+,4
+2300041,Student_041,C,2,3,Computer Science and Engineering,student041@kluniversity.in,Dr. Anil Reddy,FAC001,HS201,Professional Communication,A,2
+2300042,Student_042,C,2,3,Computer Science and Engineering,student042@kluniversity.in,Dr. Priya Sharma,FAC002,CS201,Data Structures,A,4
+2300042,Student_042,C,2,3,Computer Science and Engineering,student042@kluniversity.in,Dr. Priya Sharma,FAC002,CS202,Digital Logic Design,F,3
+2300042,Student_042,C,2,3,Computer Science and Engineering,student042@kluniversity.in,Dr. Priya Sharma,FAC002,MA201,Probability and Statistics,B,3
+2300042,Student_042,C,2,3,Computer Science and Engineering,student042@kluniversity.in,Dr. Priya Sharma,FAC002,CS203,Object Oriented Programming,C,4
+2300042,Student_042,C,2,3,Computer Science and Engineering,student042@kluniversity.in,Dr. Priya Sharma,FAC002,HS201,Professional Communication,A,2
+2300043,Student_043,A,2,3,Computer Science and Engineering,student043@kluniversity.in,Dr. Priya Sharma,FAC002,CS201,Data Structures,A+,4
+2300043,Student_043,A,2,3,Computer Science and Engineering,student043@kluniversity.in,Dr. Priya Sharma,FAC002,CS202,Digital Logic Design,B+,3
+2300043,Student_043,A,2,3,Computer Science and Engineering,student043@kluniversity.in,Dr. Priya Sharma,FAC002,MA201,Probability and Statistics,B,3
+2300043,Student_043,A,2,3,Computer Science and Engineering,student043@kluniversity.in,Dr. Priya Sharma,FAC002,CS203,Object Oriented Programming,B+,4
+2300043,Student_043,A,2,3,Computer Science and Engineering,student043@kluniversity.in,Dr. Priya Sharma,FAC002,HS201,Professional Communication,A,2
+2300044,Student_044,C,2,3,Computer Science and Engineering,student044@kluniversity.in,Dr. Ramesh Kumar,FAC002,CS201,Data Structures,B+,4
+2300044,Student_044,C,2,3,Computer Science and Engineering,student044@kluniversity.in,Dr. Ramesh Kumar,FAC002,CS202,Digital Logic Design,B+,3
+2300044,Student_044,C,2,3,Computer Science and Engineering,student044@kluniversity.in,Dr. Ramesh Kumar,FAC002,MA201,Probability and Statistics,B,3
+2300044,Student_044,C,2,3,Computer Science and Engineering,student044@kluniversity.in,Dr. Ramesh Kumar,FAC002,CS203,Object Oriented Programming,P,4
+2300044,Student_044,C,2,3,Computer Science and Engineering,student044@kluniversity.in,Dr. Ramesh Kumar,FAC002,HS201,Professional Communication,F,2
+2300045,Student_045,B,2,3,Computer Science and Engineering,student045@kluniversity.in,Dr. Anil Reddy,FAC001,CS201,Data Structures,C,4
+2300045,Student_045,B,2,3,Computer Science and Engineering,student045@kluniversity.in,Dr. Anil Reddy,FAC001,CS202,Digital Logic Design,F,3
+2300045,Student_045,B,2,3,Computer Science and Engineering,student045@kluniversity.in,Dr. Anil Reddy,FAC001,MA201,Probability and Statistics,P,3
+2300045,Student_045,B,2,3,Computer Science and Engineering,student045@kluniversity.in,Dr. Anil Reddy,FAC001,CS203,Object Oriented Programming,B,4
+2300045,Student_045,B,2,3,Computer Science and Engineering,student045@kluniversity.in,Dr. Anil Reddy,FAC001,HS201,Professional Communication,B+,2
+2300046,Student_046,C,2,3,Computer Science and Engineering,student046@kluniversity.in,Dr. Ramesh Kumar,FAC002,CS201,Data Structures,A+,4
+2300046,Student_046,C,2,3,Computer Science and Engineering,student046@kluniversity.in,Dr. Ramesh Kumar,FAC002,CS202,Digital Logic Design,B+,3
+2300046,Student_046,C,2,3,Computer Science and Engineering,student046@kluniversity.in,Dr. Ramesh Kumar,FAC002,MA201,Probability and Statistics,P,3
+2300046,Student_046,C,2,3,Computer Science and Engineering,student046@kluniversity.in,Dr. Ramesh Kumar,FAC002,CS203,Object Oriented Programming,C,4
+2300046,Student_046,C,2,3,Computer Science and Engineering,student046@kluniversity.in,Dr. Ramesh Kumar,FAC002,HS201,Professional Communication,A+,2
+2300047,Student_047,A,2,3,Computer Science and Engineering,student047@kluniversity.in,Dr. Priya Sharma,FAC002,CS201,Data Structures,O,4
+2300047,Student_047,A,2,3,Computer Science and Engineering,student047@kluniversity.in,Dr. Priya Sharma,FAC002,CS202,Digital Logic Design,A,3
+2300047,Student_047,A,2,3,Computer Science and Engineering,student047@kluniversity.in,Dr. Priya Sharma,FAC002,MA201,Probability and Statistics,C,3
+2300047,Student_047,A,2,3,Computer Science and Engineering,student047@kluniversity.in,Dr. Priya Sharma,FAC002,CS203,Object Oriented Programming,B+,4
+2300047,Student_047,A,2,3,Computer Science and Engineering,student047@kluniversity.in,Dr. Priya Sharma,FAC002,HS201,Professional Communication,A,2
+2300048,Student_048,A,2,3,Computer Science and Engineering,student048@kluniversity.in,Dr. Priya Sharma,FAC001,CS201,Data Structures,A+,4
+2300048,Student_048,A,2,3,Computer Science and Engineering,student048@kluniversity.in,Dr. Priya Sharma,FAC001,CS202,Digital Logic Design,A,3
+2300048,Student_048,A,2,3,Computer Science and Engineering,student048@kluniversity.in,Dr. Priya Sharma,FAC001,MA201,Probability and Statistics,A+,3
+2300048,Student_048,A,2,3,Computer Science and Engineering,student048@kluniversity.in,Dr. Priya Sharma,FAC001,CS203,Object Oriented Programming,A+,4
+2300048,Student_048,A,2,3,Computer Science and Engineering,student048@kluniversity.in,Dr. Priya Sharma,FAC001,HS201,Professional Communication,A,2
+2300049,Student_049,B,2,3,Computer Science and Engineering,student049@kluniversity.in,Dr. Priya Sharma,FAC001,CS201,Data Structures,C,4
+2300049,Student_049,B,2,3,Computer Science and Engineering,student049@kluniversity.in,Dr. Priya Sharma,FAC001,CS202,Digital Logic Design,A,3
+2300049,Student_049,B,2,3,Computer Science and Engineering,student049@kluniversity.in,Dr. Priya Sharma,FAC001,MA201,Probability and Statistics,F,3
+2300049,Student_049,B,2,3,Computer Science and Engineering,student049@kluniversity.in,Dr. Priya Sharma,FAC001,CS203,Object Oriented Programming,B+,4
+2300049,Student_049,B,2,3,Computer Science and Engineering,student049@kluniversity.in,Dr. Priya Sharma,FAC001,HS201,Professional Communication,O,2
+2300050,Student_050,B,2,3,Computer Science and Engineering,student050@kluniversity.in,Dr. Anil Reddy,FAC003,CS201,Data Structures,A+,4
+2300050,Student_050,B,2,3,Computer Science and Engineering,student050@kluniversity.in,Dr. Anil Reddy,FAC003,CS202,Digital Logic Design,B+,3
+2300050,Student_050,B,2,3,Computer Science and Engineering,student050@kluniversity.in,Dr. Anil Reddy,FAC003,MA201,Probability and Statistics,F,3
+2300050,Student_050,B,2,3,Computer Science and Engineering,student050@kluniversity.in,Dr. Anil Reddy,FAC003,CS203,Object Oriented Programming,P,4
+2300050,Student_050,B,2,3,Computer Science and Engineering,student050@kluniversity.in,Dr. Anil Reddy,FAC003,HS201,Professional Communication,F,2

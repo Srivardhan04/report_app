@@ -1,0 +1,251 @@
+Student_ID,Student_Name,Section,Year,Semester,Branch,Email,Counselor_Name,Counselor_ID,Subject_Code,Subject_Name,Classes_Held,Classes_Attended
+2300001,Student_001,A,2,3,Computer Science and Engineering,student001@kluniversity.in,Dr. Priya Sharma,FAC001,CS301,Database Management Systems,49,36
+2300001,Student_001,A,2,3,Computer Science and Engineering,student001@kluniversity.in,Dr. Priya Sharma,FAC001,CS302,Computer Networks,44,40
+2300001,Student_001,A,2,3,Computer Science and Engineering,student001@kluniversity.in,Dr. Priya Sharma,FAC001,CS303,Operating Systems,49,42
+2300001,Student_001,A,2,3,Computer Science and Engineering,student001@kluniversity.in,Dr. Priya Sharma,FAC001,CS304,Software Engineering,44,43
+2300001,Student_001,A,2,3,Computer Science and Engineering,student001@kluniversity.in,Dr. Priya Sharma,FAC001,MA301,Discrete Mathematics,40,35
+2300002,Student_002,B,2,3,Computer Science and Engineering,student002@kluniversity.in,Dr. Priya Sharma,FAC003,CS301,Database Management Systems,35,18
+2300002,Student_002,B,2,3,Computer Science and Engineering,student002@kluniversity.in,Dr. Priya Sharma,FAC003,CS302,Computer Networks,49,44
+2300002,Student_002,B,2,3,Computer Science and Engineering,student002@kluniversity.in,Dr. Priya Sharma,FAC003,CS303,Operating Systems,45,45
+2300002,Student_002,B,2,3,Computer Science and Engineering,student002@kluniversity.in,Dr. Priya Sharma,FAC003,CS304,Software Engineering,50,41
+2300002,Student_002,B,2,3,Computer Science and Engineering,student002@kluniversity.in,Dr. Priya Sharma,FAC003,MA301,Discrete Mathematics,38,33
+2300003,Student_003,A,2,3,Computer Science and Engineering,student003@kluniversity.in,Dr. Ramesh Kumar,FAC002,CS301,Database Management Systems,40,40
+2300003,Student_003,A,2,3,Computer Science and Engineering,student003@kluniversity.in,Dr. Ramesh Kumar,FAC002,CS302,Computer Networks,41,38
+2300003,Student_003,A,2,3,Computer Science and Engineering,student003@kluniversity.in,Dr. Ramesh Kumar,FAC002,CS303,Operating Systems,38,37
+2300003,Student_003,A,2,3,Computer Science and Engineering,student003@kluniversity.in,Dr. Ramesh Kumar,FAC002,CS304,Software Engineering,43,38
+2300003,Student_003,A,2,3,Computer Science and Engineering,student003@kluniversity.in,Dr. Ramesh Kumar,FAC002,MA301,Discrete Mathematics,43,37
+2300004,Student_004,C,2,3,Computer Science and Engineering,student004@kluniversity.in,Dr. Priya Sharma,FAC002,CS301,Database Management Systems,49,47
+2300004,Student_004,C,2,3,Computer Science and Engineering,student004@kluniversity.in,Dr. Priya Sharma,FAC002,CS302,Computer Networks,47,38
+2300004,Student_004,C,2,3,Computer Science and Engineering,student004@kluniversity.in,Dr. Priya Sharma,FAC002,CS303,Operating Systems,37,35
+2300004,Student_004,C,2,3,Computer Science and Engineering,student004@kluniversity.in,Dr. Priya Sharma,FAC002,CS304,Software Engineering,39,29
+2300004,Student_004,C,2,3,Computer Science and Engineering,student004@kluniversity.in,Dr. Priya Sharma,FAC002,MA301,Discrete Mathematics,42,32
+2300005,Student_005,C,2,3,Computer Science and Engineering,student005@kluniversity.in,Dr. Anil Reddy,FAC003,CS301,Database Management Systems,35,28
+2300005,Student_005,C,2,3,Computer Science and Engineering,student005@kluniversity.in,Dr. Anil Reddy,FAC003,CS302,Computer Networks,47,46
+2300005,Student_005,C,2,3,Computer Science and Engineering,student005@kluniversity.in,Dr. Anil Reddy,FAC003,CS303,Operating Systems,35,34
+2300005,Student_005,C,2,3,Computer Science and Engineering,student005@kluniversity.in,Dr. Anil Reddy,FAC003,CS304,Software Engineering,49,28
+2300005,Student_005,C,2,3,Computer Science and Engineering,student005@kluniversity.in,Dr. Anil Reddy,FAC003,MA301,Discrete Mathematics,45,45
+2300006,Student_006,C,2,3,Computer Science and Engineering,student006@kluniversity.in,Dr. Ramesh Kumar,FAC001,CS301,Database Management Systems,45,40
+2300006,Student_006,C,2,3,Computer Science and Engineering,student006@kluniversity.in,Dr. Ramesh Kumar,FAC001,CS302,Computer Networks,45,45
+2300006,Student_006,C,2,3,Computer Science and Engineering,student006@kluniversity.in,Dr. Ramesh Kumar,FAC001,CS303,Operating Systems,49,38
+2300006,Student_006,C,2,3,Computer Science and Engineering,student006@kluniversity.in,Dr. Ramesh Kumar,FAC001,CS304,Software Engineering,38,33
+2300006,Student_006,C,2,3,Computer Science and Engineering,student006@kluniversity.in,Dr. Ramesh Kumar,FAC001,MA301,Discrete Mathematics,48,45
+2300007,Student_007,A,2,3,Computer Science and Engineering,student007@kluniversity.in,Dr. Priya Sharma,FAC002,CS301,Database Management Systems,35,26
+2300007,Student_007,A,2,3,Computer Science and Engineering,student007@kluniversity.in,Dr. Priya Sharma,FAC002,CS302,Computer Networks,39,35
+2300007,Student_007,A,2,3,Computer Science and Engineering,student007@kluniversity.in,Dr. Priya Sharma,FAC002,CS303,Operating Systems,46,29
+2300007,Student_007,A,2,3,Computer Science and Engineering,student007@kluniversity.in,Dr. Priya Sharma,FAC002,CS304,Software Engineering,44,41
+2300007,Student_007,A,2,3,Computer Science and Engineering,student007@kluniversity.in,Dr. Priya Sharma,FAC002,MA301,Discrete Mathematics,48,39
+2300008,Student_008,B,2,3,Computer Science and Engineering,student008@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS301,Database Management Systems,41,26
+2300008,Student_008,B,2,3,Computer Science and Engineering,student008@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS302,Computer Networks,36,29
+2300008,Student_008,B,2,3,Computer Science and Engineering,student008@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS303,Operating Systems,50,43
+2300008,Student_008,B,2,3,Computer Science and Engineering,student008@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS304,Software Engineering,40,32
+2300008,Student_008,B,2,3,Computer Science and Engineering,student008@kluniversity.in,Dr. Ramesh Kumar,FAC003,MA301,Discrete Mathematics,40,30
+2300009,Student_009,C,2,3,Computer Science and Engineering,student009@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS301,Database Management Systems,36,29
+2300009,Student_009,C,2,3,Computer Science and Engineering,student009@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS302,Computer Networks,43,37
+2300009,Student_009,C,2,3,Computer Science and Engineering,student009@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS303,Operating Systems,39,31
+2300009,Student_009,C,2,3,Computer Science and Engineering,student009@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS304,Software Engineering,44,39
+2300009,Student_009,C,2,3,Computer Science and Engineering,student009@kluniversity.in,Dr. Ramesh Kumar,FAC003,MA301,Discrete Mathematics,44,23
+2300010,Student_010,C,2,3,Computer Science and Engineering,student010@kluniversity.in,Dr. Priya Sharma,FAC001,CS301,Database Management Systems,38,30
+2300010,Student_010,C,2,3,Computer Science and Engineering,student010@kluniversity.in,Dr. Priya Sharma,FAC001,CS302,Computer Networks,38,35
+2300010,Student_010,C,2,3,Computer Science and Engineering,student010@kluniversity.in,Dr. Priya Sharma,FAC001,CS303,Operating Systems,45,35
+2300010,Student_010,C,2,3,Computer Science and Engineering,student010@kluniversity.in,Dr. Priya Sharma,FAC001,CS304,Software Engineering,44,29
+2300010,Student_010,C,2,3,Computer Science and Engineering,student010@kluniversity.in,Dr. Priya Sharma,FAC001,MA301,Discrete Mathematics,44,34
+2300011,Student_011,A,2,3,Computer Science and Engineering,student011@kluniversity.in,Dr. Anil Reddy,FAC001,CS301,Database Management Systems,37,28
+2300011,Student_011,A,2,3,Computer Science and Engineering,student011@kluniversity.in,Dr. Anil Reddy,FAC001,CS302,Computer Networks,37,23
+2300011,Student_011,A,2,3,Computer Science and Engineering,student011@kluniversity.in,Dr. Anil Reddy,FAC001,CS303,Operating Systems,43,35
+2300011,Student_011,A,2,3,Computer Science and Engineering,student011@kluniversity.in,Dr. Anil Reddy,FAC001,CS304,Software Engineering,39,31
+2300011,Student_011,A,2,3,Computer Science and Engineering,student011@kluniversity.in,Dr. Anil Reddy,FAC001,MA301,Discrete Mathematics,38,21
+2300012,Student_012,A,2,3,Computer Science and Engineering,student012@kluniversity.in,Dr. Anil Reddy,FAC003,CS301,Database Management Systems,46,36
+2300012,Student_012,A,2,3,Computer Science and Engineering,student012@kluniversity.in,Dr. Anil Reddy,FAC003,CS302,Computer Networks,47,26
+2300012,Student_012,A,2,3,Computer Science and Engineering,student012@kluniversity.in,Dr. Anil Reddy,FAC003,CS303,Operating Systems,43,42
+2300012,Student_012,A,2,3,Computer Science and Engineering,student012@kluniversity.in,Dr. Anil Reddy,FAC003,CS304,Software Engineering,49,48
+2300012,Student_012,A,2,3,Computer Science and Engineering,student012@kluniversity.in,Dr. Anil Reddy,FAC003,MA301,Discrete Mathematics,43,41
+2300013,Student_013,A,2,3,Computer Science and Engineering,student013@kluniversity.in,Dr. Ramesh Kumar,FAC001,CS301,Database Management Systems,50,43
+2300013,Student_013,A,2,3,Computer Science and Engineering,student013@kluniversity.in,Dr. Ramesh Kumar,FAC001,CS302,Computer Networks,41,30
+2300013,Student_013,A,2,3,Computer Science and Engineering,student013@kluniversity.in,Dr. Ramesh Kumar,FAC001,CS303,Operating Systems,45,44
+2300013,Student_013,A,2,3,Computer Science and Engineering,student013@kluniversity.in,Dr. Ramesh Kumar,FAC001,CS304,Software Engineering,41,37
+2300013,Student_013,A,2,3,Computer Science and Engineering,student013@kluniversity.in,Dr. Ramesh Kumar,FAC001,MA301,Discrete Mathematics,50,47
+2300014,Student_014,B,2,3,Computer Science and Engineering,student014@kluniversity.in,Dr. Anil Reddy,FAC003,CS301,Database Management Systems,44,36
+2300014,Student_014,B,2,3,Computer Science and Engineering,student014@kluniversity.in,Dr. Anil Reddy,FAC003,CS302,Computer Networks,47,44
+2300014,Student_014,B,2,3,Computer Science and Engineering,student014@kluniversity.in,Dr. Anil Reddy,FAC003,CS303,Operating Systems,45,38
+2300014,Student_014,B,2,3,Computer Science and Engineering,student014@kluniversity.in,Dr. Anil Reddy,FAC003,CS304,Software Engineering,36,23
+2300014,Student_014,B,2,3,Computer Science and Engineering,student014@kluniversity.in,Dr. Anil Reddy,FAC003,MA301,Discrete Mathematics,46,37
+2300015,Student_015,A,2,3,Computer Science and Engineering,student015@kluniversity.in,Dr. Priya Sharma,FAC002,CS301,Database Management Systems,41,36
+2300015,Student_015,A,2,3,Computer Science and Engineering,student015@kluniversity.in,Dr. Priya Sharma,FAC002,CS302,Computer Networks,45,34
+2300015,Student_015,A,2,3,Computer Science and Engineering,student015@kluniversity.in,Dr. Priya Sharma,FAC002,CS303,Operating Systems,48,37
+2300015,Student_015,A,2,3,Computer Science and Engineering,student015@kluniversity.in,Dr. Priya Sharma,FAC002,CS304,Software Engineering,47,37
+2300015,Student_015,A,2,3,Computer Science and Engineering,student015@kluniversity.in,Dr. Priya Sharma,FAC002,MA301,Discrete Mathematics,46,35
+2300016,Student_016,C,2,3,Computer Science and Engineering,student016@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS301,Database Management Systems,43,42
+2300016,Student_016,C,2,3,Computer Science and Engineering,student016@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS302,Computer Networks,41,39
+2300016,Student_016,C,2,3,Computer Science and Engineering,student016@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS303,Operating Systems,44,33
+2300016,Student_016,C,2,3,Computer Science and Engineering,student016@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS304,Software Engineering,41,38
+2300016,Student_016,C,2,3,Computer Science and Engineering,student016@kluniversity.in,Dr. Ramesh Kumar,FAC003,MA301,Discrete Mathematics,41,33
+2300017,Student_017,B,2,3,Computer Science and Engineering,student017@kluniversity.in,Dr. Anil Reddy,FAC003,CS301,Database Management Systems,40,33
+2300017,Student_017,B,2,3,Computer Science and Engineering,student017@kluniversity.in,Dr. Anil Reddy,FAC003,CS302,Computer Networks,39,38
+2300017,Student_017,B,2,3,Computer Science and Engineering,student017@kluniversity.in,Dr. Anil Reddy,FAC003,CS303,Operating Systems,46,42
+2300017,Student_017,B,2,3,Computer Science and Engineering,student017@kluniversity.in,Dr. Anil Reddy,FAC003,CS304,Software Engineering,40,40
+2300017,Student_017,B,2,3,Computer Science and Engineering,student017@kluniversity.in,Dr. Anil Reddy,FAC003,MA301,Discrete Mathematics,44,43
+2300018,Student_018,B,2,3,Computer Science and Engineering,student018@kluniversity.in,Dr. Priya Sharma,FAC002,CS301,Database Management Systems,43,25
+2300018,Student_018,B,2,3,Computer Science and Engineering,student018@kluniversity.in,Dr. Priya Sharma,FAC002,CS302,Computer Networks,37,33
+2300018,Student_018,B,2,3,Computer Science and Engineering,student018@kluniversity.in,Dr. Priya Sharma,FAC002,CS303,Operating Systems,48,36
+2300018,Student_018,B,2,3,Computer Science and Engineering,student018@kluniversity.in,Dr. Priya Sharma,FAC002,CS304,Software Engineering,43,43
+2300018,Student_018,B,2,3,Computer Science and Engineering,student018@kluniversity.in,Dr. Priya Sharma,FAC002,MA301,Discrete Mathematics,39,36
+2300019,Student_019,C,2,3,Computer Science and Engineering,student019@kluniversity.in,Dr. Anil Reddy,FAC001,CS301,Database Management Systems,39,36
+2300019,Student_019,C,2,3,Computer Science and Engineering,student019@kluniversity.in,Dr. Anil Reddy,FAC001,CS302,Computer Networks,38,34
+2300019,Student_019,C,2,3,Computer Science and Engineering,student019@kluniversity.in,Dr. Anil Reddy,FAC001,CS303,Operating Systems,42,25
+2300019,Student_019,C,2,3,Computer Science and Engineering,student019@kluniversity.in,Dr. Anil Reddy,FAC001,CS304,Software Engineering,41,32
+2300019,Student_019,C,2,3,Computer Science and Engineering,student019@kluniversity.in,Dr. Anil Reddy,FAC001,MA301,Discrete Mathematics,40,22
+2300020,Student_020,B,2,3,Computer Science and Engineering,student020@kluniversity.in,Dr. Ramesh Kumar,FAC001,CS301,Database Management Systems,42,38
+2300020,Student_020,B,2,3,Computer Science and Engineering,student020@kluniversity.in,Dr. Ramesh Kumar,FAC001,CS302,Computer Networks,48,37
+2300020,Student_020,B,2,3,Computer Science and Engineering,student020@kluniversity.in,Dr. Ramesh Kumar,FAC001,CS303,Operating Systems,46,30
+2300020,Student_020,B,2,3,Computer Science and Engineering,student020@kluniversity.in,Dr. Ramesh Kumar,FAC001,CS304,Software Engineering,46,35
+2300020,Student_020,B,2,3,Computer Science and Engineering,student020@kluniversity.in,Dr. Ramesh Kumar,FAC001,MA301,Discrete Mathematics,42,40
+2300021,Student_021,A,2,3,Computer Science and Engineering,student021@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS301,Database Management Systems,48,40
+2300021,Student_021,A,2,3,Computer Science and Engineering,student021@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS302,Computer Networks,47,43
+2300021,Student_021,A,2,3,Computer Science and Engineering,student021@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS303,Operating Systems,46,30
+2300021,Student_021,A,2,3,Computer Science and Engineering,student021@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS304,Software Engineering,38,22
+2300021,Student_021,A,2,3,Computer Science and Engineering,student021@kluniversity.in,Dr. Ramesh Kumar,FAC003,MA301,Discrete Mathematics,37,29
+2300022,Student_022,A,2,3,Computer Science and Engineering,student022@kluniversity.in,Dr. Anil Reddy,FAC003,CS301,Database Management Systems,35,33
+2300022,Student_022,A,2,3,Computer Science and Engineering,student022@kluniversity.in,Dr. Anil Reddy,FAC003,CS302,Computer Networks,37,33
+2300022,Student_022,A,2,3,Computer Science and Engineering,student022@kluniversity.in,Dr. Anil Reddy,FAC003,CS303,Operating Systems,44,42
+2300022,Student_022,A,2,3,Computer Science and Engineering,student022@kluniversity.in,Dr. Anil Reddy,FAC003,CS304,Software Engineering,47,40
+2300022,Student_022,A,2,3,Computer Science and Engineering,student022@kluniversity.in,Dr. Anil Reddy,FAC003,MA301,Discrete Mathematics,42,23
+2300023,Student_023,C,2,3,Computer Science and Engineering,student023@kluniversity.in,Dr. Anil Reddy,FAC003,CS301,Database Management Systems,48,37
+2300023,Student_023,C,2,3,Computer Science and Engineering,student023@kluniversity.in,Dr. Anil Reddy,FAC003,CS302,Computer Networks,46,42
+2300023,Student_023,C,2,3,Computer Science and Engineering,student023@kluniversity.in,Dr. Anil Reddy,FAC003,CS303,Operating Systems,41,27
+2300023,Student_023,C,2,3,Computer Science and Engineering,student023@kluniversity.in,Dr. Anil Reddy,FAC003,CS304,Software Engineering,35,30
+2300023,Student_023,C,2,3,Computer Science and Engineering,student023@kluniversity.in,Dr. Anil Reddy,FAC003,MA301,Discrete Mathematics,48,41
+2300024,Student_024,A,2,3,Computer Science and Engineering,student024@kluniversity.in,Dr. Priya Sharma,FAC003,CS301,Database Management Systems,49,47
+2300024,Student_024,A,2,3,Computer Science and Engineering,student024@kluniversity.in,Dr. Priya Sharma,FAC003,CS302,Computer Networks,48,41
+2300024,Student_024,A,2,3,Computer Science and Engineering,student024@kluniversity.in,Dr. Priya Sharma,FAC003,CS303,Operating Systems,43,38
+2300024,Student_024,A,2,3,Computer Science and Engineering,student024@kluniversity.in,Dr. Priya Sharma,FAC003,CS304,Software Engineering,39,37
+2300024,Student_024,A,2,3,Computer Science and Engineering,student024@kluniversity.in,Dr. Priya Sharma,FAC003,MA301,Discrete Mathematics,39,24
+2300025,Student_025,A,2,3,Computer Science and Engineering,student025@kluniversity.in,Dr. Anil Reddy,FAC003,CS301,Database Management Systems,39,33
+2300025,Student_025,A,2,3,Computer Science and Engineering,student025@kluniversity.in,Dr. Anil Reddy,FAC003,CS302,Computer Networks,44,41
+2300025,Student_025,A,2,3,Computer Science and Engineering,student025@kluniversity.in,Dr. Anil Reddy,FAC003,CS303,Operating Systems,49,43
+2300025,Student_025,A,2,3,Computer Science and Engineering,student025@kluniversity.in,Dr. Anil Reddy,FAC003,CS304,Software Engineering,50,50
+2300025,Student_025,A,2,3,Computer Science and Engineering,student025@kluniversity.in,Dr. Anil Reddy,FAC003,MA301,Discrete Mathematics,46,34
+2300026,Student_026,C,2,3,Computer Science and Engineering,student026@kluniversity.in,Dr. Anil Reddy,FAC003,CS301,Database Management Systems,45,42
+2300026,Student_026,C,2,3,Computer Science and Engineering,student026@kluniversity.in,Dr. Anil Reddy,FAC003,CS302,Computer Networks,40,38
+2300026,Student_026,C,2,3,Computer Science and Engineering,student026@kluniversity.in,Dr. Anil Reddy,FAC003,CS303,Operating Systems,43,28
+2300026,Student_026,C,2,3,Computer Science and Engineering,student026@kluniversity.in,Dr. Anil Reddy,FAC003,CS304,Software Engineering,42,38
+2300026,Student_026,C,2,3,Computer Science and Engineering,student026@kluniversity.in,Dr. Anil Reddy,FAC003,MA301,Discrete Mathematics,49,32
+2300027,Student_027,A,2,3,Computer Science and Engineering,student027@kluniversity.in,Dr. Anil Reddy,FAC001,CS301,Database Management Systems,40,31
+2300027,Student_027,A,2,3,Computer Science and Engineering,student027@kluniversity.in,Dr. Anil Reddy,FAC001,CS302,Computer Networks,50,50
+2300027,Student_027,A,2,3,Computer Science and Engineering,student027@kluniversity.in,Dr. Anil Reddy,FAC001,CS303,Operating Systems,39,32
+2300027,Student_027,A,2,3,Computer Science and Engineering,student027@kluniversity.in,Dr. Anil Reddy,FAC001,CS304,Software Engineering,50,27
+2300027,Student_027,A,2,3,Computer Science and Engineering,student027@kluniversity.in,Dr. Anil Reddy,FAC001,MA301,Discrete Mathematics,41,28
+2300028,Student_028,B,2,3,Computer Science and Engineering,student028@kluniversity.in,Dr. Ramesh Kumar,FAC002,CS301,Database Management Systems,41,31
+2300028,Student_028,B,2,3,Computer Science and Engineering,student028@kluniversity.in,Dr. Ramesh Kumar,FAC002,CS302,Computer Networks,39,29
+2300028,Student_028,B,2,3,Computer Science and Engineering,student028@kluniversity.in,Dr. Ramesh Kumar,FAC002,CS303,Operating Systems,39,25
+2300028,Student_028,B,2,3,Computer Science and Engineering,student028@kluniversity.in,Dr. Ramesh Kumar,FAC002,CS304,Software Engineering,49,45
+2300028,Student_028,B,2,3,Computer Science and Engineering,student028@kluniversity.in,Dr. Ramesh Kumar,FAC002,MA301,Discrete Mathematics,42,38
+2300029,Student_029,C,2,3,Computer Science and Engineering,student029@kluniversity.in,Dr. Anil Reddy,FAC002,CS301,Database Management Systems,49,25
+2300029,Student_029,C,2,3,Computer Science and Engineering,student029@kluniversity.in,Dr. Anil Reddy,FAC002,CS302,Computer Networks,43,36
+2300029,Student_029,C,2,3,Computer Science and Engineering,student029@kluniversity.in,Dr. Anil Reddy,FAC002,CS303,Operating Systems,38,35
+2300029,Student_029,C,2,3,Computer Science and Engineering,student029@kluniversity.in,Dr. Anil Reddy,FAC002,CS304,Software Engineering,45,40
+2300029,Student_029,C,2,3,Computer Science and Engineering,student029@kluniversity.in,Dr. Anil Reddy,FAC002,MA301,Discrete Mathematics,46,36
+2300030,Student_030,B,2,3,Computer Science and Engineering,student030@kluniversity.in,Dr. Priya Sharma,FAC002,CS301,Database Management Systems,40,22
+2300030,Student_030,B,2,3,Computer Science and Engineering,student030@kluniversity.in,Dr. Priya Sharma,FAC002,CS302,Computer Networks,43,34
+2300030,Student_030,B,2,3,Computer Science and Engineering,student030@kluniversity.in,Dr. Priya Sharma,FAC002,CS303,Operating Systems,36,29
+2300030,Student_030,B,2,3,Computer Science and Engineering,student030@kluniversity.in,Dr. Priya Sharma,FAC002,CS304,Software Engineering,36,36
+2300030,Student_030,B,2,3,Computer Science and Engineering,student030@kluniversity.in,Dr. Priya Sharma,FAC002,MA301,Discrete Mathematics,35,32
+2300031,Student_031,C,2,3,Computer Science and Engineering,student031@kluniversity.in,Dr. Ramesh Kumar,FAC001,CS301,Database Management Systems,44,26
+2300031,Student_031,C,2,3,Computer Science and Engineering,student031@kluniversity.in,Dr. Ramesh Kumar,FAC001,CS302,Computer Networks,37,20
+2300031,Student_031,C,2,3,Computer Science and Engineering,student031@kluniversity.in,Dr. Ramesh Kumar,FAC001,CS303,Operating Systems,43,42
+2300031,Student_031,C,2,3,Computer Science and Engineering,student031@kluniversity.in,Dr. Ramesh Kumar,FAC001,CS304,Software Engineering,50,49
+2300031,Student_031,C,2,3,Computer Science and Engineering,student031@kluniversity.in,Dr. Ramesh Kumar,FAC001,MA301,Discrete Mathematics,44,42
+2300032,Student_032,A,2,3,Computer Science and Engineering,student032@kluniversity.in,Dr. Priya Sharma,FAC003,CS301,Database Management Systems,50,40
+2300032,Student_032,A,2,3,Computer Science and Engineering,student032@kluniversity.in,Dr. Priya Sharma,FAC003,CS302,Computer Networks,35,30
+2300032,Student_032,A,2,3,Computer Science and Engineering,student032@kluniversity.in,Dr. Priya Sharma,FAC003,CS303,Operating Systems,50,38
+2300032,Student_032,A,2,3,Computer Science and Engineering,student032@kluniversity.in,Dr. Priya Sharma,FAC003,CS304,Software Engineering,49,38
+2300032,Student_032,A,2,3,Computer Science and Engineering,student032@kluniversity.in,Dr. Priya Sharma,FAC003,MA301,Discrete Mathematics,36,28
+2300033,Student_033,A,2,3,Computer Science and Engineering,student033@kluniversity.in,Dr. Priya Sharma,FAC002,CS301,Database Management Systems,46,44
+2300033,Student_033,A,2,3,Computer Science and Engineering,student033@kluniversity.in,Dr. Priya Sharma,FAC002,CS302,Computer Networks,49,43
+2300033,Student_033,A,2,3,Computer Science and Engineering,student033@kluniversity.in,Dr. Priya Sharma,FAC002,CS303,Operating Systems,41,36
+2300033,Student_033,A,2,3,Computer Science and Engineering,student033@kluniversity.in,Dr. Priya Sharma,FAC002,CS304,Software Engineering,45,38
+2300033,Student_033,A,2,3,Computer Science and Engineering,student033@kluniversity.in,Dr. Priya Sharma,FAC002,MA301,Discrete Mathematics,37,23
+2300034,Student_034,B,2,3,Computer Science and Engineering,student034@kluniversity.in,Dr. Anil Reddy,FAC002,CS301,Database Management Systems,38,31
+2300034,Student_034,B,2,3,Computer Science and Engineering,student034@kluniversity.in,Dr. Anil Reddy,FAC002,CS302,Computer Networks,44,31
+2300034,Student_034,B,2,3,Computer Science and Engineering,student034@kluniversity.in,Dr. Anil Reddy,FAC002,CS303,Operating Systems,43,22
+2300034,Student_034,B,2,3,Computer Science and Engineering,student034@kluniversity.in,Dr. Anil Reddy,FAC002,CS304,Software Engineering,35,34
+2300034,Student_034,B,2,3,Computer Science and Engineering,student034@kluniversity.in,Dr. Anil Reddy,FAC002,MA301,Discrete Mathematics,48,41
+2300035,Student_035,C,2,3,Computer Science and Engineering,student035@kluniversity.in,Dr. Anil Reddy,FAC001,CS301,Database Management Systems,47,32
+2300035,Student_035,C,2,3,Computer Science and Engineering,student035@kluniversity.in,Dr. Anil Reddy,FAC001,CS302,Computer Networks,49,34
+2300035,Student_035,C,2,3,Computer Science and Engineering,student035@kluniversity.in,Dr. Anil Reddy,FAC001,CS303,Operating Systems,50,46
+2300035,Student_035,C,2,3,Computer Science and Engineering,student035@kluniversity.in,Dr. Anil Reddy,FAC001,CS304,Software Engineering,43,39
+2300035,Student_035,C,2,3,Computer Science and Engineering,student035@kluniversity.in,Dr. Anil Reddy,FAC001,MA301,Discrete Mathematics,45,39
+2300036,Student_036,C,2,3,Computer Science and Engineering,student036@kluniversity.in,Dr. Anil Reddy,FAC003,CS301,Database Management Systems,35,18
+2300036,Student_036,C,2,3,Computer Science and Engineering,student036@kluniversity.in,Dr. Anil Reddy,FAC003,CS302,Computer Networks,37,31
+2300036,Student_036,C,2,3,Computer Science and Engineering,student036@kluniversity.in,Dr. Anil Reddy,FAC003,CS303,Operating Systems,43,32
+2300036,Student_036,C,2,3,Computer Science and Engineering,student036@kluniversity.in,Dr. Anil Reddy,FAC003,CS304,Software Engineering,38,31
+2300036,Student_036,C,2,3,Computer Science and Engineering,student036@kluniversity.in,Dr. Anil Reddy,FAC003,MA301,Discrete Mathematics,36,28
+2300037,Student_037,C,2,3,Computer Science and Engineering,student037@kluniversity.in,Dr. Anil Reddy,FAC001,CS301,Database Management Systems,41,36
+2300037,Student_037,C,2,3,Computer Science and Engineering,student037@kluniversity.in,Dr. Anil Reddy,FAC001,CS302,Computer Networks,50,39
+2300037,Student_037,C,2,3,Computer Science and Engineering,student037@kluniversity.in,Dr. Anil Reddy,FAC001,CS303,Operating Systems,45,42
+2300037,Student_037,C,2,3,Computer Science and Engineering,student037@kluniversity.in,Dr. Anil Reddy,FAC001,CS304,Software Engineering,45,41
+2300037,Student_037,C,2,3,Computer Science and Engineering,student037@kluniversity.in,Dr. Anil Reddy,FAC001,MA301,Discrete Mathematics,42,36
+2300038,Student_038,C,2,3,Computer Science and Engineering,student038@kluniversity.in,Dr. Priya Sharma,FAC001,CS301,Database Management Systems,50,38
+2300038,Student_038,C,2,3,Computer Science and Engineering,student038@kluniversity.in,Dr. Priya Sharma,FAC001,CS302,Computer Networks,47,43
+2300038,Student_038,C,2,3,Computer Science and Engineering,student038@kluniversity.in,Dr. Priya Sharma,FAC001,CS303,Operating Systems,48,41
+2300038,Student_038,C,2,3,Computer Science and Engineering,student038@kluniversity.in,Dr. Priya Sharma,FAC001,CS304,Software Engineering,44,41
+2300038,Student_038,C,2,3,Computer Science and Engineering,student038@kluniversity.in,Dr. Priya Sharma,FAC001,MA301,Discrete Mathematics,50,31
+2300039,Student_039,B,2,3,Computer Science and Engineering,student039@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS301,Database Management Systems,41,41
+2300039,Student_039,B,2,3,Computer Science and Engineering,student039@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS302,Computer Networks,40,31
+2300039,Student_039,B,2,3,Computer Science and Engineering,student039@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS303,Operating Systems,42,33
+2300039,Student_039,B,2,3,Computer Science and Engineering,student039@kluniversity.in,Dr. Ramesh Kumar,FAC003,CS304,Software Engineering,39,30
+2300039,Student_039,B,2,3,Computer Science and Engineering,student039@kluniversity.in,Dr. Ramesh Kumar,FAC003,MA301,Discrete Mathematics,37,32
+2300040,Student_040,C,2,3,Computer Science and Engineering,student040@kluniversity.in,Dr. Priya Sharma,FAC001,CS301,Database Management Systems,48,39
+2300040,Student_040,C,2,3,Computer Science and Engineering,student040@kluniversity.in,Dr. Priya Sharma,FAC001,CS302,Computer Networks,35,27
+2300040,Student_040,C,2,3,Computer Science and Engineering,student040@kluniversity.in,Dr. Priya Sharma,FAC001,CS303,Operating Systems,42,41
+2300040,Student_040,C,2,3,Computer Science and Engineering,student040@kluniversity.in,Dr. Priya Sharma,FAC001,CS304,Software Engineering,47,38
+2300040,Student_040,C,2,3,Computer Science and Engineering,student040@kluniversity.in,Dr. Priya Sharma,FAC001,MA301,Discrete Mathematics,47,39
+2300041,Student_041,C,2,3,Computer Science and Engineering,student041@kluniversity.in,Dr. Anil Reddy,FAC001,CS301,Database Management Systems,40,33
+2300041,Student_041,C,2,3,Computer Science and Engineering,student041@kluniversity.in,Dr. Anil Reddy,FAC001,CS302,Computer Networks,41,35
+2300041,Student_041,C,2,3,Computer Science and Engineering,student041@kluniversity.in,Dr. Anil Reddy,FAC001,CS303,Operating Systems,41,32
+2300041,Student_041,C,2,3,Computer Science and Engineering,student041@kluniversity.in,Dr. Anil Reddy,FAC001,CS304,Software Engineering,42,34
+2300041,Student_041,C,2,3,Computer Science and Engineering,student041@kluniversity.in,Dr. Anil Reddy,FAC001,MA301,Discrete Mathematics,48,42
+2300042,Student_042,C,2,3,Computer Science and Engineering,student042@kluniversity.in,Dr. Priya Sharma,FAC002,CS301,Database Management Systems,38,19
+2300042,Student_042,C,2,3,Computer Science and Engineering,student042@kluniversity.in,Dr. Priya Sharma,FAC002,CS302,Computer Networks,36,29
+2300042,Student_042,C,2,3,Computer Science and Engineering,student042@kluniversity.in,Dr. Priya Sharma,FAC002,CS303,Operating Systems,36,28
+2300042,Student_042,C,2,3,Computer Science and Engineering,student042@kluniversity.in,Dr. Priya Sharma,FAC002,CS304,Software Engineering,43,35
+2300042,Student_042,C,2,3,Computer Science and Engineering,student042@kluniversity.in,Dr. Priya Sharma,FAC002,MA301,Discrete Mathematics,43,42
+2300043,Student_043,A,2,3,Computer Science and Engineering,student043@kluniversity.in,Dr. Priya Sharma,FAC002,CS301,Database Management Systems,47,36
+2300043,Student_043,A,2,3,Computer Science and Engineering,student043@kluniversity.in,Dr. Priya Sharma,FAC002,CS302,Computer Networks,41,36
+2300043,Student_043,A,2,3,Computer Science and Engineering,student043@kluniversity.in,Dr. Priya Sharma,FAC002,CS303,Operating Systems,50,45
+2300043,Student_043,A,2,3,Computer Science and Engineering,student043@kluniversity.in,Dr. Priya Sharma,FAC002,CS304,Software Engineering,48,46
+2300043,Student_043,A,2,3,Computer Science and Engineering,student043@kluniversity.in,Dr. Priya Sharma,FAC002,MA301,Discrete Mathematics,45,41
+2300044,Student_044,C,2,3,Computer Science and Engineering,student044@kluniversity.in,Dr. Ramesh Kumar,FAC002,CS301,Database Management Systems,39,34
+2300044,Student_044,C,2,3,Computer Science and Engineering,student044@kluniversity.in,Dr. Ramesh Kumar,FAC002,CS302,Computer Networks,42,22
+2300044,Student_044,C,2,3,Computer Science and Engineering,student044@kluniversity.in,Dr. Ramesh Kumar,FAC002,CS303,Operating Systems,41,30
+2300044,Student_044,C,2,3,Computer Science and Engineering,student044@kluniversity.in,Dr. Ramesh Kumar,FAC002,CS304,Software Engineering,36,32
+2300044,Student_044,C,2,3,Computer Science and Engineering,student044@kluniversity.in,Dr. Ramesh Kumar,FAC002,MA301,Discrete Mathematics,50,37
+2300045,Student_045,B,2,3,Computer Science and Engineering,student045@kluniversity.in,Dr. Anil Reddy,FAC001,CS301,Database Management Systems,35,33
+2300045,Student_045,B,2,3,Computer Science and Engineering,student045@kluniversity.in,Dr. Anil Reddy,FAC001,CS302,Computer Networks,35,35
+2300045,Student_045,B,2,3,Computer Science and Engineering,student045@kluniversity.in,Dr. Anil Reddy,FAC001,CS303,Operating Systems,41,35
+2300045,Student_045,B,2,3,Computer Science and Engineering,student045@kluniversity.in,Dr. Anil Reddy,FAC001,CS304,Software Engineering,43,37
+2300045,Student_045,B,2,3,Computer Science and Engineering,student045@kluniversity.in,Dr. Anil Reddy,FAC001,MA301,Discrete Mathematics,49,47
+2300046,Student_046,C,2,3,Computer Science and Engineering,student046@kluniversity.in,Dr. Ramesh Kumar,FAC002,CS301,Database Management Systems,45,45
+2300046,Student_046,C,2,3,Computer Science and Engineering,student046@kluniversity.in,Dr. Ramesh Kumar,FAC002,CS302,Computer Networks,48,47
+2300046,Student_046,C,2,3,Computer Science and Engineering,student046@kluniversity.in,Dr. Ramesh Kumar,FAC002,CS303,Operating Systems,42,36
+2300046,Student_046,C,2,3,Computer Science and Engineering,student046@kluniversity.in,Dr. Ramesh Kumar,FAC002,CS304,Software Engineering,46,42
+2300046,Student_046,C,2,3,Computer Science and Engineering,student046@kluniversity.in,Dr. Ramesh Kumar,FAC002,MA301,Discrete Mathematics,50,43
+2300047,Student_047,A,2,3,Computer Science and Engineering,student047@kluniversity.in,Dr. Priya Sharma,FAC002,CS301,Database Management Systems,44,32
+2300047,Student_047,A,2,3,Computer Science and Engineering,student047@kluniversity.in,Dr. Priya Sharma,FAC002,CS302,Computer Networks,38,32
+2300047,Student_047,A,2,3,Computer Science and Engineering,student047@kluniversity.in,Dr. Priya Sharma,FAC002,CS303,Operating Systems,45,38
+2300047,Student_047,A,2,3,Computer Science and Engineering,student047@kluniversity.in,Dr. Priya Sharma,FAC002,CS304,Software Engineering,42,36
+2300047,Student_047,A,2,3,Computer Science and Engineering,student047@kluniversity.in,Dr. Priya Sharma,FAC002,MA301,Discrete Mathematics,47,35
+2300048,Student_048,A,2,3,Computer Science and Engineering,student048@kluniversity.in,Dr. Priya Sharma,FAC001,CS301,Database Management Systems,50,44
+2300048,Student_048,A,2,3,Computer Science and Engineering,student048@kluniversity.in,Dr. Priya Sharma,FAC001,CS302,Computer Networks,46,43
+2300048,Student_048,A,2,3,Computer Science and Engineering,student048@kluniversity.in,Dr. Priya Sharma,FAC001,CS303,Operating Systems,42,40
+2300048,Student_048,A,2,3,Computer Science and Engineering,student048@kluniversity.in,Dr. Priya Sharma,FAC001,CS304,Software Engineering,35,34
+2300048,Student_048,A,2,3,Computer Science and Engineering,student048@kluniversity.in,Dr. Priya Sharma,FAC001,MA301,Discrete Mathematics,45,36
+2300049,Student_049,B,2,3,Computer Science and Engineering,student049@kluniversity.in,Dr. Priya Sharma,FAC001,CS301,Database Management Systems,39,37
+2300049,Student_049,B,2,3,Computer Science and Engineering,student049@kluniversity.in,Dr. Priya Sharma,FAC001,CS302,Computer Networks,42,40
+2300049,Student_049,B,2,3,Computer Science and Engineering,student049@kluniversity.in,Dr. Priya Sharma,FAC001,CS303,Operating Systems,37,33
+2300049,Student_049,B,2,3,Computer Science and Engineering,student049@kluniversity.in,Dr. Priya Sharma,FAC001,CS304,Software Engineering,46,42
+2300049,Student_049,B,2,3,Computer Science and Engineering,student049@kluniversity.in,Dr. Priya Sharma,FAC001,MA301,Discrete Mathematics,42,33
+2300050,Student_050,B,2,3,Computer Science and Engineering,student050@kluniversity.in,Dr. Anil Reddy,FAC003,CS301,Database Management Systems,46,34
+2300050,Student_050,B,2,3,Computer Science and Engineering,student050@kluniversity.in,Dr. Anil Reddy,FAC003,CS302,Computer Networks,37,31
+2300050,Student_050,B,2,3,Computer Science and Engineering,student050@kluniversity.in,Dr. Anil Reddy,FAC003,CS303,Operating Systems,39,29
+2300050,Student_050,B,2,3,Computer Science and Engineering,student050@kluniversity.in,Dr. Anil Reddy,FAC003,CS304,Software Engineering,37,26
+2300050,Student_050,B,2,3,Computer Science and Engineering,student050@kluniversity.in,Dr. Anil Reddy,FAC003,MA301,Discrete Mathematics,36,28
